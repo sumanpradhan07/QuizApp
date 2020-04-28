@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="cs/style.css">
+
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Simple JavaScript Quiz</h1>
+            <p>Test your knowledge in JavaScript fundamentals</p>
+        </header>
+        <section>
+            <div id="result"></div>
+            <form name="quizForm" onsubmit="return submitAnswers()">
+                <h3>1. JavaScript code between a pair of “script” tags are called</h3>
+                <input type="radio" name="q1" value="a" id="q1a">a. Non-inline<br>
+                <input type="radio" name="q1" value="b" id="q1b">b. External<br>
+                <input type="radio" name="q1" value="c" id="q1c">c. Referenced<br>
+                <input type="radio" name="q1" value="d" id="q1d">d. Inline<br>
+
+
+                <h3>2. The development environment offers which standard construct for data validation?</h3>
+                <input type="radio" name="q2" value="a" id="q2a">a. Super controlled loop constructs<br>
+                <input type="radio" name="q2" value="b" id="q2b">b. Case sensitivity check<br>
+                <input type="radio" name="q2" value="c" id="q2c">c. Validation constructs<br>
+                <input type="radio" name="q2" value="d" id="q2d">d. All of the mentioned<br>
+
+
+                <h3>3. The service(s) that enables networking through scripted HTTP requests is</h3>
+                <input type="radio" name="q3" value="a" id="q3a">a. XMLHttpResponse<br>
+                <input type="radio" name="q3" value="b" id="q3b">b. XMLRequest<br>
+                <input type="radio" name="q3" value="c" id="q3c">c. XMLHttpRequest<br>
+                <input type="radio" name="q3" value="d" id="q3d">d. All of the mentioned<br>
+
+
+                <h3>4. The script tag must be placed in??</h3>
+                <input type="radio" name="q4" value="a" id="q4a">a. head<br>
+                <input type="radio" name="q4" value="b" id="q4b">b. head and body<br>
+                <input type="radio" name="q4" value="c" id="q4c">c. title and head<br>
+                <input type="radio" name="q4" value="d" id="q4d">d. all of the mentioned<br>
+
+
+                <h3>5. Which tag(s) can handle mouse events in Netscape?</h3>
+                <input type="radio" name="q5" value="a" id="q5a">a. &lt;IMG&gt;<br>
+                <input type="radio" name="q5" value="b" id="q5b">b. &lt;A&gt;<br>
+                <input type="radio" name="q5" value="c" id="q5c">c. &lt;BR&gt;<br>
+                <input type="radio" name="q5" value="d" id="q5d">d. None of the above<br>
+                <br><br>
+
+                <input type="submit" value="submit Answers">
+            </form>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2020, All Right Reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>
